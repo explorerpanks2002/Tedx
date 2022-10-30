@@ -1,0 +1,84 @@
+* {
+    background-color: black;
+}
+
+.row {
+    margin-left: 50px;
+}
+
+.container-fluid bg-black {
+    margin-left: 5px;
+}
+
+.profile-area {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.py-3 {
+    color: rgb(255, 43, 6);
+    margin-left: 115px;
+    margin-top: 10px;
+    font-weight: 550;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.row {
+    margin: 80px;
+}
+
+/* 
+.card{
+    width: 380px;
+    height: 800px;
+} */
+
+
+.card-body {
+    background-color: black;
+    padding: 8px;
+    border: none;
+}
+
+.card-text {
+    color: white;
+    padding: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+
+.por {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-top-img {
+    padding: 50px;
+}
+
+@media (min-width: 767px) and (max-width: 1520px) {
+    .card-text {
+        font-size: medium;
+        padding: 2px;
+    }
+
+    .por {
+        font-size: larger;
+    }
+
+    .card-top-img {
+        padding: 4px;
+    }
+}
+
+.card:hover {
+    -webkit-box-shadow: 33px 32px 50px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 33px 32px 50px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 33px 32px 50px 0px rgba(0, 0, 0, 0.75);
+
+}
